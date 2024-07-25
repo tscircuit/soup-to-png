@@ -1,5 +1,5 @@
 {
-  "name": "soup-to-png",
+  "name": "circuit-to-png",
   "module": "index.ts",
   "type": "module",
   "scripts": {
