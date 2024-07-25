@@ -1,7 +1,6 @@
 {
   "name": "circuit-to-png",
   "module": "index.ts",
-  "type": "module",
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsup ./src/index.ts --dts --sourcemap",
@@ -14,9 +13,12 @@
     "tsup": "^8.2.3"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@tscircuit/soup": "^0.0.41"
+    "@resvg/resvg-js": "^2.6.2",
+    "@resvg/resvg-wasm": "^2.6.2",
+    "@tscircuit/soup": "^0.0.41",
+    "@tscircuit/soup-to-svg": "^0.0.1"
   }
 }
