@@ -19,6 +19,6 @@
     "@resvg/resvg-js": "^2.6.2",
     "@resvg/resvg-wasm": "^2.6.2",
     "@tscircuit/soup": "^0.0.41",
-    "@tscircuit/soup-to-svg": "^0.0.1"
+    "circuit-to-svg": "^0.0.1"
   }
 }

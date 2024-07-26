@@ -1,5 +1,5 @@
 import { Resvg } from '@resvg/resvg-js'
-import { pcbSoupToSvg, soupToSvg } from '@tscircuit/soup-to-svg'
+import { pcbSoupToSvg, soupToSvg } from 'circuit-to-svg'
 import type { AnySoupElement } from '@tscircuit/soup'
 
 function circuitToPng(circuit: AnySoupElement[], circuitType: 'pcb' | 'schematic') {
