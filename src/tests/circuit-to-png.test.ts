@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { circuitToPng } from "../lib/svg-to-png";
+import { circuitToPng } from "../lib/svg-to-png.js";
 import { writeFile } from "fs/promises";
 import { join } from "path";
 import soup from "./soup.js";
