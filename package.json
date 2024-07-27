@@ -1,6 +1,11 @@
 {
   "name": "circuit-to-png",
-  "module": "index.ts",
+  "version": "0.0.1",
+  "description": "Convert circuit to png",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsup ./src/index.ts --dts --sourcemap",
