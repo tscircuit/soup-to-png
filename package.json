@@ -18,12 +18,12 @@
     "tsup": "^8.2.3"
   },
   "peerDependencies": {
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "@tscircuit/soup": "*"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "@resvg/resvg-wasm": "^2.6.2",
-    "@tscircuit/soup": "^0.0.41",
     "circuit-to-svg": "^0.0.1"
   }
 }
