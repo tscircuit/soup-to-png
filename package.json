@@ -1,6 +1,10 @@
 {
   "name": "circuit-to-png",
   "version": "0.0.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tscircuit/circuit-to-png.git"
+  },
   "description": "Convert circuit to png",
   "main": "dist/index.js",
   "files": [
